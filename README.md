@@ -10,7 +10,7 @@ This Python script is a **Password Complexity Checker** that evaluates the stren
 - **Detailed Feedback**: If the password doesn’t meet one or more criteria, the tool provides clear suggestions for improvement, such as adding uppercase letters, numbers, or special characters.
 - **User Input**: The program prompts the user to input a password and then evaluates it based on the defined strength criteria.
 
-### How It Works:
+## How It Works:
 1. **Criteria Checking**: The function `evaluate_password_strength` uses regular expressions (`re.search`) to check for the following criteria:
    - A minimum length of 8 characters.
    - At least one uppercase letter.
@@ -25,7 +25,7 @@ This Python script is a **Password Complexity Checker** that evaluates the stren
    
 3. **Feedback Generation**: Based on which criteria the password fails to meet, the program generates feedback and suggests improvements. If the password meets all criteria, it congratulates the user.
 
-### Technologies Used:
+## Technologies Used:
 - **Python**: The script is written in Python, leveraging the standard library for string manipulation and regular expressions.
 - **Regular Expressions (re module)**: Used to search for specific patterns in the password, such as uppercase letters, digits, and special characters.
 - **Input/Output Handling**: The program uses `input()` to capture the user’s password and `print()` to display the results and feedback. 
