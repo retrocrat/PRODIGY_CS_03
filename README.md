@@ -10,6 +10,16 @@ This Python script is a **Password Complexity Checker** that evaluates the stren
 - **Detailed Feedback**: If the password doesn’t meet one or more criteria, the tool provides clear suggestions for improvement, such as adding uppercase letters, numbers, or special characters.
 - **User Input**: The program prompts the user to input a password and then evaluates it based on the defined strength criteria.
 
+## Getting Started
+
+Clone the repository:
+
+git clone https://github.com/retrocrat/PRODIGY_CS_03.git
+
+Run the script:
+
+python password-complexity-checker.py
+
 ## How It Works:
 1. **Criteria Checking**: The function `evaluate_password_strength` uses regular expressions (`re.search`) to check for the following criteria:
    - A minimum length of 8 characters.
