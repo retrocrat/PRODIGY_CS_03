@@ -2,7 +2,7 @@
 
 This Python script is a **Password Complexity Checker** that evaluates the strength of user passwords by checking if they meet specific security criteria. The tool assesses the password's strength as **Strong**, **Moderate**, or **Weak** based on several conditions and provides feedback to help users create more secure passwords.
 
-### Features:
+## Features:
 - **Password Strength Evaluation**: The tool categorizes the password strength into three levels:
   - **Strong**: Meets all five security criteria.
   - **Moderate**: Meets at least three criteria.
