@@ -3,7 +3,7 @@
 This Python script is a **Password Complexity Checker** that evaluates the strength of user passwords by checking if they meet specific security criteria. The tool assesses the password's strength as **Strong**, **Moderate**, or **Weak** based on several conditions and provides feedback to help users create more secure passwords.
 
 ## Features:
-- **Password Strength Evaluation**: The tool categorizes the password strength into three levels:
+  - **Password Strength Evaluation**: The tool categorizes the password strength into three levels:
   - **Strong**: Meets all five security criteria.
   - **Moderate**: Meets at least three criteria.
   - **Weak**: Meets fewer than three criteria.
@@ -12,13 +12,13 @@ This Python script is a **Password Complexity Checker** that evaluates the stren
 
 ## Getting Started
 
-Clone the repository:
+- Clone the repository:
 
-git clone https://github.com/retrocrat/PRODIGY_CS_03.git
+```git clone https://github.com/retrocrat/PRODIGY_CS_03.git```
 
-Run the script:
+- Run the script:
 
-python password-complexity-checker.py
+```python password-complexity-checker.py```
 
 ## How It Works:
 1. **Criteria Checking**: The function `evaluate_password_strength` uses regular expressions (`re.search`) to check for the following criteria:
