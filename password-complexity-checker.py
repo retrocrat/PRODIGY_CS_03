@@ -40,7 +40,7 @@ def evaluate_password_strength(password):
 
     return strength, feedback
 
-# Main program #https://github.com/retrocrat/PRODIGY_CS_03/password-complexity-checker.py
+# Main program #https://github.com/retrocrat/PRODIGY_CS_03
 if __name__ == "__main__":
     password = input("Enter a password to evaluate its strength: ")
     strength, feedback = evaluate_password_strength(password)
