@@ -94,7 +94,7 @@ if __name__ == "__main__":
     password = input("Enter a password to evaluate its strength: ")
     strength, feedback = evaluate_password_strength(password)
 
-    print(f"Password Strength: {strength}")
+    print(f"Password Strength: {strength}") 
     if feedback:
         print("Feedback:")
         for suggestion in feedback:
