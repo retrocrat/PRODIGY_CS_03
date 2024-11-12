@@ -52,3 +52,5 @@ if __name__ == "__main__":
             print(f"- {suggestion}")
     else:
         print("Your password is strong and meets all criteria!")
+
+#retrocrat
