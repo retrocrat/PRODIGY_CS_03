@@ -8,7 +8,7 @@ def evaluate_password_strength(password):
     has_digit = re.search(r'[0-9]', password)
     has_special_char = re.search(r'[\W_]', password)
 
-    # Count criteria met
+    # Count criteria met 
     criteria_met = sum([
         has_min_length,
         bool(has_uppercase),
@@ -40,7 +40,7 @@ def evaluate_password_strength(password):
 
     return strength, feedback
 
-# Main program
+# Main program #https://github.com/retrocrat/PRODIGY_CS_03/password-complexity-checker.py
 if __name__ == "__main__":
     password = input("Enter a password to evaluate its strength: ")
     strength, feedback = evaluate_password_strength(password)
